@@ -1,0 +1,4 @@
+Ejercicio flexbox + transiciones + pseudoclases + javascript + git
+
+Modificamos la sección de Servicios de la siguiente página:
+http://www.templatemonsterpreview.com/demo/94400.html
