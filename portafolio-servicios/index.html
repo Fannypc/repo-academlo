@@ -47,7 +47,7 @@
         <div class="contenedor-acerca">
             <div class="item contenedor-img">
                 <div class="perfil">
-                    <img src="coding.jpg" alt="perfil">
+                    <img src="about-img.png" alt="perfil">
                 </div>
             </div>
             <div class="item contenedor-info">
@@ -57,21 +57,70 @@
                     <span class="info-legends">Nombre</span> : Mack Smith
                 </p>
                 <p>
-                    <span class="info-legends">Edad</span> : Mack Smith
+                    <span class="info-legends">Edad</span> : 30
                 </p>
                 <p>
-                    <span class="info-legends">Dirección</span> : Mack Smith
+                    <span class="info-legends">Dirección</span> : Shreveport, LA 81101 
                 </p>
                 <p>
-                    <span class="info-legends">Teléfono</span> : Mack Smith
+                    <span class="info-legends">Teléfono</span> : +00 153 275 4455 
                 </p>
                 <p>
-                    <span class="info-legends">Email</span> : Mack Smith
+                    <span class="info-legends">Email</span> : example@gmail.com 
                 </p>
 ​
                 <a class="btn-cv" href="#">Descargar mi CV</a>
             </div>
         </div>
     </section>
+
+    <section class="servicios-container">
+        <div class="servicios-cabecera">
+            <strong>What we do</strong>
+            <h2>My Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur praesentium quos et nihil consequuntur doloremque odit tenetur eligendi maiores veritatis?</p>
+            <div></div>
+        </div>
+        <div class="servicios-item" onclick="mifuncion('1')">
+            <i class="fas fa-laptop"></i>
+            <h4 id="1">Web Development</h4> 
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel in nihil exercitationem.</p> 
+        </div>
+        <div class="servicios-item" onclick="mifuncion('2')">
+            <i class="fas fa-chart-bar"></i>
+            <h4 id="2">Digital Marketing</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel in nihil exercitationem.</p>   
+        </div>
+        <div class="servicios-item" onclick="mifuncion('3')">
+            <i class="fas fa-chart-pie"></i>
+            <h4 id="3">Branding & Identity</h4>  
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel in nihil exercitationem.</p> 
+        </div>
+        <div class="servicios-item" onclick="mifuncion('4')">
+            <i class="fab fa-buffer"></i>
+            <h4 id="4">Customizability</h4>  
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel in nihil exercitationem.</p> 
+        </div>
+        <div class="servicios-item" onclick="mifuncion('5')">
+            <i class="fas fa-mobile-alt"></i>
+            <h4 id="5">Responsive</h4>  
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel in nihil exercitationem.</p> 
+        </div>
+        <div class="servicios-item" onclick="mifuncion('6')">
+            <i class="fas fa-camera"></i>
+            <h4 id="6">Photography</h4>   
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel in nihil exercitationem.</p> 
+        </div>
+
+</section>
+
+<script>
+
+    function mifuncion(id) {
+        alert(document.getElementById(id).innerHTML);
+    }
+    
+</script>
+
 </body>
 </html>
