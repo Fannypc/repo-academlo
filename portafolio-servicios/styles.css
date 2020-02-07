@@ -152,13 +152,11 @@ body{
     justify-content:center;
     flex-wrap: wrap;
     padding: 100px 0px;
-    /* display:absolute; */
 }
 
 .servicios-cabecera{
     color: white;
     text-align:center;
-    /* padding: 0px 200px; */
     width: 100%;
     padding-bottom: 90px;
 }
@@ -172,7 +170,6 @@ body{
 
 .servicios-cabecera strong{
     background-color: #FFC815;
-    /* color: white; */
     font-weight: 600;
     text-transform: uppercase;
     font-size: 10px;
@@ -188,12 +185,9 @@ body{
 }
 
 .servicios-cabecera div{
-    display: block;
     height: 2px;
     width: 70px;
     margin-bottom: 15px;
-    /* position: relative;
-    left: 50%; */
     background-color: #FFC815;
     margin: 20px auto;
 }
