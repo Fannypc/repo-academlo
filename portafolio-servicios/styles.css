@@ -211,10 +211,57 @@ body{
 
 .servicios-item i{
     font-size: 45px;
+    /* font-weight: 300; */
 }
 
 .servicios-item:hover{
     background-color: #FFC815;
     border: 1px solid #FFC815;
     color: white;
+}
+
+
+/* ------------------ Hire Me estilos ----------------- */
+
+.hire-section{
+    background-image: url(hire1.jpg);
+    height: 360px;
+    margin-bottom:100px;
+    /* background-position: 30% 40%; */
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-attachment: fixed;
+}
+
+.hire-section::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000ba;
+    z-index: 10;
+    top: 0px;
+
+}
+
+.hire-section h2{
+    z-index: 20;
+    color: white;
+}
+
+.hire-section button{
+    padding: 20px 40px;
+    border-radius: 30px;
+    color: white;
+    z-index: 20;
+    background-color:#FFC815;
+    margin: 30px;
+    border: 0;
+    font-size: 15px;
+    font-weight: 600;
 }
